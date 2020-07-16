@@ -47,7 +47,11 @@ a {
       font-size: 12px; }
       #publication-list .color-button {
         font-size: 12px;
-        margin-top: 6px; } }
+        margin-top: 6px; }
+      #publication-list ul {
+        margin-right: 20px; }
+      #publication-list #footnote {
+        margin-right: 20px; } }
 
 h1,
 h2,
