@@ -22,29 +22,32 @@ a {
   a:hover, a:focus {
     color: black; }
 
-/**
- * Color button
- */
-.color-button {
-  background: #210024;
-  border-style: none;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  display: inline-block;
-  padding: 0px 10px;
-  margin: 0px 5px 0 0;
-  cursor: pointer; }
-
-.color-button:hover {
-  background: #222; }
-
 #publication-list {
-  font-size: 18px; }
-
-#publication-list li {
-  margin-bottom: 20px; }
+  font-size: 18px;
+  /**
+   * Color button
+   */ }
+  #publication-list .color-button {
+    background: #210024;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px 5px 0 0;
+    cursor: pointer; }
+  #publication-list .color-button:hover {
+    background: #222; }
+  #publication-list li {
+    margin-bottom: 20px; }
+  @media (max-width: 768px) {
+    #publication-list {
+      font-size: 12px; }
+      #publication-list .color-button {
+        font-size: 12px;
+        margin-top: 6px; } }
 
 h1,
 h2,
@@ -293,13 +296,12 @@ header {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   font-weight: 700; }
 
 .btn-xl {
   padding: 15px 10px;
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin: 10px 20px 10px 20px; }
 
 #contact .fa {
   color: #222;
