@@ -22,6 +22,30 @@ a {
   a:hover, a:focus {
     color: black; }
 
+/**
+ * Color button
+ */
+.color-button {
+  background: #210024;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0px 10px;
+  margin: 0px 5px 0 0;
+  cursor: pointer; }
+
+.color-button:hover {
+  background: #222; }
+
+#publication-list {
+  font-size: 18px; }
+
+#publication-list li {
+  margin-bottom: 20px; }
+
 h1,
 h2,
 h3,
@@ -39,7 +63,7 @@ p {
   background-color: #210024; }
 
 .bg-dark {
-  background-color: #222;
+  background-image: url("../img/Pattern-Randomized.svg");
   color: white; }
 
 .text-faded {
@@ -269,12 +293,13 @@ header {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
-  font-weight: 700;
-  text-transform: uppercase; }
+  border-radius: 30px;
+  font-weight: 700; }
 
 .btn-xl {
-  padding: 15px 30px; }
+  padding: 15px 10px;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 #contact .fa {
   color: #222;
